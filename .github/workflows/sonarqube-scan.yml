@@ -3,9 +3,9 @@ name: Build
 on:
   push:
     branches:
-      - dev1
+      - main
   pull_request:
-    branches: ["dev"]
+    branches: ["main"]
     # paths-ignore:
     #   - 'README.md'
 
